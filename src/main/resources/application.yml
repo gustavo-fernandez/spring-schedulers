@@ -3,3 +3,6 @@ spring:
     job-store-type: jdbc
     jdbc:
       initialize-schema: always
+  batch:
+    job:
+      enabled: false
